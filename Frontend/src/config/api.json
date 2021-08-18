@@ -1,0 +1,62 @@
+{
+    "login": {
+        "uri": "/laxmangym/adminlogin",
+        "method": "GET"
+    },
+    "getSubscriptions": {
+        "uri": "/laxmangym/admin/:adminId/subscriptions",
+        "method": "GET"
+    },
+    "createSubscription": {
+        "uri": "/laxmangym/admin/:adminId/subscriptions",
+        "method": "POST"
+    },
+    "updateSubscription": {
+        "uri": "/laxmangym/admin/:adminId/subscriptions/:id",
+        "method": "PUT"
+    },
+    "deleteSubscription": {
+        "uri": "/laxmangym/admin/:adminId/subscriptions/:id",
+        "method": "DELETE"
+    },
+    "quotes": {
+        "uri": "https://type.fit/api/quotes",
+        "method": "GET"
+    },
+    "createUser": {
+        "uri": "/laxmangym/admin/:adminId/users",
+        "method": "POST"
+    },
+    "getUsers": {
+        "uri": "/laxmangym/admin/:adminId/users",
+        "method": "GET"
+    },
+    "s3upload": {
+        "uri": "/laxmangym/admin/:adminId/upload",
+        "method": "POST"
+    },
+    "updateUser": {
+        "uri": "/laxmangym/admin/:adminId/users/:id",
+        "method": "PUT"
+    },
+    "getExpiringUsers": {
+        "uri": "/laxmangym/admin/:adminId/expiringusers",
+        "method": "GET"
+    },
+    "searchUser": {
+        "uri": "/laxmangym/admin/:adminId/users/search/:name",
+        "method": "GET"
+    },
+    "sendNotification": {
+        "uri": "/laxmangym/admin/:adminId/notifyusers",
+        "method": "POST"
+    },
+    "getBirthdayUsers": {
+        "uri": "/laxmangym/admin/:adminId/birthdayusers",
+        "method": "GET"
+    },
+    "renewSubscription": {
+        "uri": "/laxmangym/admin/:adminId/users/:id/renewsubscription",
+        "method": "GET"
+    }
+}

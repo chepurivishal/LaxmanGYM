@@ -1,0 +1,19 @@
+curl "https://qa1-bots.kore.ai/api/1.1/organization/billing/usage?rnd=tkfq87&limit=20&skip=0" 
+  -H "Connection: keep-alive" ^
+  -H "sec-ch-ua: ^\^"Chromium^\^";v=^\^"92^\^", ^\^" Not A;Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"92^\^"" ^
+  -H "X-Timezone-Offset: -330" ^
+  -H "Requester-Type: admin" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "Authorization: bearer acgI9WZKf7xtWaVIbpYhaCbliatX2HVWwlUCMyHJyGelN7Wup03nUEm_FdtzLXL-" ^
+  -H "Content-Type: application/json;charset=UTF-8" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" ^
+  -H "app-language: null" ^
+  -H "AccountId: 610a66fc69c4ff72b278b03d" ^
+  -H "Accept: */*" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "Sec-Fetch-Mode: cors" ^
+  -H "Sec-Fetch-Dest: empty" ^
+  -H "Referer: https://qa1-bots.kore.ai/admin/?lang=null" ^
+  -H "Accept-Language: en" ^
+  -H "Cookie: _ga=GA1.2.884667503.1628757664; _gid=GA1.2.1693365988.1628757664" ^
+  --compressed
